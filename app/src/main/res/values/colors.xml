@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="btn_notekle_text_renk">#241543</color>
+    <color name="dialog_Background">#177496</color>
+
+    <color name="tamamlanmamis_not">#96e91e63</color>
+    <color name="tamamlanmis_not">#50e91e63</color>
+    <color name="transparent"></color>
+
+
+
+</resources>

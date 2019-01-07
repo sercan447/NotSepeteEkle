@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/menu_yeninot"
+        android:title="Ekle"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_note_add"></item>
+
+
+    <item android:title="Cok vakit var" android:id="@+id/menu_cokvakit"></item>
+    <item android:title="Az zaman kaldı" android:id="@+id/menu_azvakit"></item>
+    <item android:title="Tamamlananlar" android:id="@+id/menu_tamamlananlar"></item>
+    <item android:title="Tamamlanmayanlar" android:id="@+id/menu_tamamlanmayanlar"></item>
+
+</menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tv_baslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Ekle"
+         />
+
+    <ImageButton
+            android:id="@+id/btn_dialog_kapat"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_baslik"
+        android:background="@null"
+        android:tint="@color/colorPrimary"
+        android:layout_alignTop="@id/tv_baslik"
+        android:layout_alignBottom="@id/tv_baslik"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/ic_cancel" />
+    
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_not"
+        android:layout_below="@id/tv_baslik"
+        android:maxLines="1"
+        android:hint="Not girin"
+        android:background="@drawable/bg_edittext"
+        android:padding="16dp"/>
+
+    <sercandevops.com.notsepeteekle.TarihSecDatePicker
+        android:id="@+id/dp_tarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_not"
+        android:visibility="visible">
+
+    </sercandevops.com.notsepeteekle.TarihSecDatePicker>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_not_ekle"
+        android:text="Not ekle"
+        android:layout_below="@+id/dp_tarih"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
+
+</ScrollView>

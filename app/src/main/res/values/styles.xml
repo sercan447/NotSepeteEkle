@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+    </style>
+
+    <style name="dialogTemasi" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="toolbarStyle" parent="Theme.AppCompat.Light">
+            <item name="android:colorBackground">@color/colorAccent</item>
+            <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/btn_footer"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/btn_notekle_arkaplan"
+android:text="@string/btn_notlistele_string"
+android:textAllCaps="false"
+android:fontFamily="sans-serif-thin"
+android:textSize="@dimen/btn_notlistele_text_size"
+android:layout_centerHorizontal="true"
+    android:layout_margin="69dp"
+android:paddingLeft="60dp"
+android:paddingRight="60dp"
+android:paddingTop="10dp"
+android:paddingBottom="10dp"
+android:textColor="@color/btn_text_rank">
+
+
+</Button>
